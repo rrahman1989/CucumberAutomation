@@ -1,0 +1,80 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4330781500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openWebSite()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Searching Google...",
+        "description": "",
+        "id": "example-feature;searching-google...",
+        "after": [
+          {
+            "result": {
+              "duration": 1136923800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeSession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2436501100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for \"test automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test automation",
+                  "offset": 14
+                }
+              ],
+              "location": "ExampleSteps.i_search_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I google should show me results!",
+            "match": {
+              "location": "ExampleSteps.i_google_should_show_me_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Example feature",
+    "description": "\r\nIn order to ...\r\nAs a ...\r\nI want to ...",
+    "id": "example-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/example.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@complete"
+      }
+    ]
+  }
+]

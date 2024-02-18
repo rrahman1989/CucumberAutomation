@@ -1,0 +1,274 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4648884700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openWebSite()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Purchase a product on Swag Labs",
+        "description": "",
+        "id": "shopping-on-swag-labs;purchase-a-product-on-swag-labs",
+        "after": [
+          {
+            "result": {
+              "duration": 131600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeSession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 764283100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user navigates to the Swag Labs website",
+            "match": {
+              "location": "SauceSteps.the_user_navigates_to_the_Swag_Labs_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 449653800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in with the username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 36
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 65
+                }
+              ],
+              "location": "SauceSteps.the_user_logs_in_with_the_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87180900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the Products label is displayed on the page",
+            "match": {
+              "location": "SauceSteps.the_Products_label_is_displayed_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81403800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user adds \"Sauce Labs Backpack\" to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 15
+                }
+              ],
+              "location": "SauceSteps.the_user_adds_to_the_cart(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78394300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Add to Cart link changes to \"Remove\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Remove",
+                  "offset": 33
+                }
+              ],
+              "location": "SauceSteps.the_Add_to_Cart_link_changes_to(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38645000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the checkout icon shows \u00271\u0027 in the image",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "SauceSteps.the_checkout_icon_shows_in_the_image(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66591900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user clicks on the checkout icon",
+            "match": {
+              "location": "SauceSteps.the_user_clicks_on_the_checkout_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42988800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"Sauce Labs Backpack\" with 1 Qty is displayed in the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 1
+                },
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "SauceSteps.with_Qty_is_displayed_in_the_cart(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65807600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks on the \"CheckOut\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CheckOut",
+                  "offset": 24
+                }
+              ],
+              "location": "SauceSteps.the_user_clicks_on_the_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60278500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "then clicks on the \"Cancel\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cancel",
+                  "offset": 20
+                }
+              ],
+              "location": "SauceSteps.then_clicks_on_the_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44966100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the \"Your Cart\" label is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Cart",
+                  "offset": 5
+                }
+              ],
+              "location": "SauceSteps.the_label_is_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53537200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks on the three bars on the left top",
+            "match": {
+              "location": "SauceSteps.the_user_clicks_on_the_three_bars_on_the_left_top()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 651512200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "selects \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 9
+                }
+              ],
+              "location": "SauceSteps.selects(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1018021800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the Saucedemo.com login page is displayed",
+            "match": {
+              "location": "SauceSteps.the_Saucedemo_com_login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping on Swag Labs",
+    "description": "",
+    "id": "shopping-on-swag-labs",
+    "keyword": "Feature",
+    "uri": "C:/Users/rahma/OneDrive/Desktop/New_Eclipse_Workspace/cucumber-zephyr-project/src/test/resources/features/saucelab.feature"
+  }
+]

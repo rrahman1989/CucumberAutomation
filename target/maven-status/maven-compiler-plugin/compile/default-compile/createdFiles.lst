@@ -1,0 +1,3 @@
+com\cucumber\cucumber\zephyr\project\guice\GuiceInjectorSource.class
+com\cucumber\cucumber\zephyr\project\guice\provider\WebDriverProvider.class
+com\cucumber\cucumber\zephyr\project\guice\ProjectModule.class
