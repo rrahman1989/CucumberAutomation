@@ -22,7 +22,7 @@ import net.masterthought.cucumber.Reportable;
 )
 public class AllTests {
 	
-    @AfterClass
+    /*@AfterClass
     public static void generateReport() {
         File reportOutputDirectory = new File("target/cucumber-reports");
         List<String> jsonFiles = new ArrayList<>();
@@ -37,5 +37,5 @@ public class AllTests {
         ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
         Reportable result = reportBuilder.generateReports();
         // Validate 'result' to decide what to do if the report has failed
-    }
+    }*/
 }
