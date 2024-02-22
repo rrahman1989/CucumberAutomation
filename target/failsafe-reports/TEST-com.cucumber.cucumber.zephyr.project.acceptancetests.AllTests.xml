@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cucumber.cucumber.zephyr.project.acceptancetests.AllTests" time="7.763" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cucumber.cucumber.zephyr.project.acceptancetests.AllTests" time="8.334" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -27,7 +27,7 @@
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\rahma\OneDrive\Desktop\New_Eclipse_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3610398448674869890.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\rahma\OneDrive\Desktop\New_Eclipse_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf11212634466976702406.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rahma\AppData\Local\Microsoft\WindowsApps;C:\Users\rahma\AppData\Roaming\npm;C:\lib\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\Program Files\leJOS EV3\bin;C:\Users\rahma\AppData\Local\Microsoft\WindowsApps;C:\lib\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\rahma\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\rahma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rahma\OneDrive\Desktop;;."/>
@@ -61,11 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="m2e.build.project.data.socket.port" value="53914"/>
+    <property name="m2e.build.project.data.socket.port" value="55473"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given I search for &quot;test automation&quot;" classname="Scenario: Searching Google..." time="0"/>
+  <testcase name="Given I search for &quot;test automation&quot;" classname="Scenario: Searching Google..." time="0.001"/>
   <testcase name="Then I google should show me results!" classname="Scenario: Searching Google..." time="0"/>
-  <testcase name="Scenario: Searching Google..." classname="Scenario: Searching Google..." time="0.974"/>
+  <testcase name="Scenario: Searching Google..." classname="Scenario: Searching Google..." time="0.992"/>
 </testsuite>

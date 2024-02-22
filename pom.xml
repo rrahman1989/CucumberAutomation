@@ -6,8 +6,7 @@
 	<groupId>com.cucumber</groupId>
 	<artifactId>cucumber-zephyr-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!--adding comments -->
-	<!--adding comments -->
+
 	<properties>
 		<failsafe.fork.count>1</failsafe.fork.count>
 		<java.version>1.8</java.version>
