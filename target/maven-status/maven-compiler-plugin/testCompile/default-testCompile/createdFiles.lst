@@ -1,7 +1,8 @@
 com\cucumber\cucumber\zephyr\project\saucelab\steps\SauceSteps.class
-om\cucumber\cucumber\zephyr\project\report\ExtentReportListener.class
 com\cucumber\cucumber\zephyr\project\steps\ExampleSteps.class
-com\cucumber\cucumber\zephyr\project\acceptancetests\AllTests.class
 ExampleIT.class
 SaucelabIT.class
+om\cucumber\cucumber\zephyr\project\report\ExtentReportListener.class
+com\cucumber\cucumber\zephyr\project\runner\TestRunner.class
+com\cucumber\cucumber\zephyr\project\acceptancetests\AllTests.class
 com\cucumber\cucumber\zephyr\project\hooks\Hooks.class
