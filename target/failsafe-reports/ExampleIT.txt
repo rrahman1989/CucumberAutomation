@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ExampleIT
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.386 sec - in ExampleIT
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.19 sec - in ExampleIT
