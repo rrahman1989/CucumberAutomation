@@ -24,7 +24,6 @@ public class SauceSteps {
     }
 	
 	
-
 	@Given("^the user navigates to the Swag Labs website$")
     public void the_user_navigates_to_the_Swag_Labs_website() throws Throwable {
         // Navigate to the Swag Labs website
@@ -154,7 +153,6 @@ public class SauceSteps {
         } else {
             System.out.println("Logout validation failed!");
         }
-
         // Close the browser
         driver.quit();
     }

@@ -14,10 +14,16 @@ import javax.inject.Provider;
 import java.util.Optional;
 
 public class WebDriverProvider implements Provider<WebDriver> {
-
+	
+	String currentDirectory = System.getProperty("user.dir");
+	
+	
+	
     @Override
     public WebDriver get() {
-    	System.setProperty("webdriver.chrome.driver", "C:\\Users\\rahma\\eclipse-workspace\\IACAutomation\\driver\\chromedriver_64_121.exe");
+    	
+    	System.out.println("Current director: " + currentDirectory);
+    	System.setProperty("webdriver.chrome.driver", currentDirectory+"\\driver\\chromedriver_64_121.exe");
         WebDriver driver;
         String browser = Optional.ofNullable(System.getProperty("browser")).orElse("");
         switch (browser.toLowerCase()) {
