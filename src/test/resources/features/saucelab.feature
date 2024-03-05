@@ -1,6 +1,6 @@
 Feature: Shopping on Swag Labs
 	
-	@TestCaseKey=QEP-T26
+	@TestCaseKey=QEP-T27
   Scenario: Purchase a product on Swag Labs
     Given the user navigates to the Swag Labs website
     When the user logs in with the username "standard_user" and password "secret_sauce"
